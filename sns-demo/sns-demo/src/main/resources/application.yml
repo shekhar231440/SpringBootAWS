@@ -1,0 +1,12 @@
+cloud:
+  aws:
+    stack:
+      auto: false
+    region:
+      auto: false
+      static: us-east-1
+    credentials:
+      accessKey: AKIA3DNN5JADDSGWKQPZ
+      secretKey: 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
+    end-point: 
+      uri: https://sqs.us-east-1.amazonaws.com/763258292230/MyFirstQueue

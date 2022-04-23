@@ -1,0 +1,24 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIA3DNN5JADHNP3A5HC
+      secret-key: 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
+    region:
+      static: us-east-1
+    stack:
+      auto: false
+application: 
+  bucket:
+    name: shekharjavabucket
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 5MB
+      max-request-size: 10MB
+
+server:
+  port: 9001
+
